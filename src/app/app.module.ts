@@ -5,7 +5,7 @@ import { HttpClientModule } from '@angular/common/http';
 
 import { ɵAngularFireSchedulers } from '@angular/fire';
 import { provideFirebaseApp, getApp, initializeApp } from '@angular/fire/app';
-import { getFirestore, provideFirestore } from '@angular/fire/firestore';
+import { getFirestore, provideFirestore } from '@angular/fire/provideFirestore';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
